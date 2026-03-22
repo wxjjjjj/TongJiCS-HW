@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Nov 19 00:36:22 2024">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="e39d0a429c6e42acb32be64dbdff99b3" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="11" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="10" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, Run Post-Synthesis Functional Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, ram2 (ram2.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, ram2_tb.v], 6, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, ram2_tb.v], 6, false, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 5, true" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 5, true, false, false, false, false, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, ram2_tb (ram2_tb.v" value="30" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="11" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Simulation Settings], 10, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="10" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_CHOOSE_COMPILED_LIBRARY_LOCATION, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, ModelSim Simulator, 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.ConfirmSaveTextEditsDialog_YES, Yes" value="9" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_BACKGROUND, Background" value="4" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_CANCEL, Cancel" value="4" type="GuiResourceData"/>
+<property name="ram2.v, 1, 202" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 2, 204" value="1" type="GuiResourceData"/>
+<property name="ram2.v, 223, 321" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 116, 246" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 119, 298" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 128, 139" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 14, 144" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 141, 269" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 149, 258" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 150, 273" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 161, 159" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 177, 71" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 21, 103" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 210, 281" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 222, 317" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 24, 104" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 240, 252" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 244, 124" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 248, 260" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 258, 271" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 278, 275" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 280, 193" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 285, 265" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 3, 164" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 3, 205" value="2" type="GuiResourceData"/>
+<property name="ram2_tb.v, 39, 199" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 4, 203" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 43, 144" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 440, 250" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 45, 241" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 48, 252" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 50, 291" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 51, 259" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 55, 183" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 586, 225" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 6, 165" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 673, 309" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 695, 273" value="1" type="GuiResourceData"/>
+<property name="ram2_tb.v, 89, 197" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="27" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="23" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

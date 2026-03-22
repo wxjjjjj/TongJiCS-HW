@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Oct 12 20:56:17 2024
+# Process ID: 26608
+# Current directory: E:/shuziluojiwork/1012SHIYAN3_4/1012SHIYAN3_4.runs/impl_1
+# Command line: vivado.exe -log encoder83_Pri.vdi -applog -messageDb vivado.pb -mode batch -source encoder83_Pri.tcl -notrace
+# Log file: E:/shuziluojiwork/1012SHIYAN3_4/1012SHIYAN3_4.runs/impl_1/encoder83_Pri.vdi
+# Journal file: E:/shuziluojiwork/1012SHIYAN3_4/1012SHIYAN3_4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source encoder83_Pri.tcl -notrace

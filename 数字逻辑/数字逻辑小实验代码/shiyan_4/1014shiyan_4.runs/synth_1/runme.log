@@ -1,0 +1,422 @@
+
+*** Running vivado
+    with args -log barrelshifter32.vds -m64 -mode batch -messageDb vivado.pb -notrace -source barrelshifter32.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source barrelshifter32.tcl -notrace
+Command: synth_design -top barrelshifter32 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20892 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 305.590 ; gain = 98.848
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'barrelshifter32' [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/sources_1/new/barrelshifter32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'barrelshifter32' (1#1) [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/sources_1/new/barrelshifter32.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 342.066 ; gain = 135.324
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 342.066 ; gain = 135.324
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc]
+WARNING: [Vivado 12-584] No ports matched 'a[30]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[29]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[28]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[27]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[26]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[25]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[24]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[23]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[22]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[21]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[20]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[19]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[18]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[17]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[16]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[15]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[14]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[13]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[12]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[11]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[10]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[9]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[8]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[31]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[4]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[3]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[31]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[30]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[29]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[28]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[27]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[26]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[25]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[24]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[23]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[22]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[21]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[20]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[19]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[18]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[17]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[16]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[15]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[14]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[13]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[12]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[11]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[10]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[9]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[8]'. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/shuziluojiwork/1014shiyan_4/1014shiyan_4.srcs/constrs_1/new/01.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 570.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module barrelshifter32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 570.273 ; gain = 363.531
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 604.234 ; gain = 397.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 604.234 ; gain = 397.492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     1|
+|2     |LUT3  |     2|
+|3     |LUT4  |     4|
+|4     |LUT5  |     9|
+|5     |LUT6  |    12|
+|6     |MUXF7 |     2|
+|7     |IBUF  |    13|
+|8     |OBUF  |     8|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    51|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 613.938 ; gain = 158.836
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 613.938 ; gain = 407.195
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 50 Warnings, 50 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 624.090 ; gain = 399.941
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 624.090 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 14 20:46:30 2024...

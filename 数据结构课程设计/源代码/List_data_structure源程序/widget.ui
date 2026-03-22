@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(9,8,8);</string>
+  </property>
+  <widget class="QWidget" name="PaintWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>720</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>720</width>
+     <height>360</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>720</width>
+     <height>360</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255,255,255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TypeLabel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>467</y>
+     <width>121</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(9,8,8);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>选择线性表类型：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="TypeComboBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>465</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(117,106,106);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="OPTypeLabel">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>467</y>
+     <width>101</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(9,8,8);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>选择操作类型：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="OPTypeComboBox">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>465</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(117,106,106);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PositionLabel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>517</y>
+     <width>121</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(9,8,8);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>输   入   位   置 ：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ValueLabel">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>517</y>
+     <width>101</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(9,8,8);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>输    入    值  ：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="PositionLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>514</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(117,106,106);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ValueLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>514</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(117,106,106);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StartPushButton">
+   <property name="geometry">
+    <rect>
+     <x>185</x>
+     <y>550</y>
+     <width>99</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(117,106,106);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StopPushButton">
+   <property name="geometry">
+    <rect>
+     <x>515</x>
+     <y>550</y>
+     <width>99</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(117,106,106);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>38</y>
+     <width>711</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="CPPHorizontalLayout">
+    <item>
+     <widget class="QLabel" name="CPPLabel">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(9,8,8);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f5f5f5;&quot;&gt;当前指针位置：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="CPPLineEdit">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(117,106,106);
+color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

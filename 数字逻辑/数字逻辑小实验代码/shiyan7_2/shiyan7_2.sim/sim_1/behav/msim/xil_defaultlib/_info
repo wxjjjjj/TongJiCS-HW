@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/shuziluojiwork/shiyan7_2/shiyan7_2.sim/sim_1/behav
+vDivider
+Z1 !s110 1730731218
+!i10b 1
+!s100 am?n7;Z6k]bVjag;In:A53
+IJSNj^h:MiQJ?:o1_DkMo40
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1730730562
+8../../../shiyan7_2.srcs/sources_1/new/Divider.v
+F../../../shiyan7_2.srcs/sources_1/new/Divider.v
+Z3 L0 23
+Z4 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z5 !s108 1730731218.000000
+Z6 !s107 ../../../shiyan7_2.srcs/sim_1/new/Divider_tb.v|../../../shiyan7_2.srcs/sources_1/new/Divider.v|
+Z7 !s90 -64|-incr|-work|xil_defaultlib|../../../shiyan7_2.srcs/sources_1/new/Divider.v|../../../shiyan7_2.srcs/sim_1/new/Divider_tb.v|
+!i113 1
+Z8 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@divider
+vDivider_tb
+R1
+!i10b 1
+!s100 1;c:kAINQ`I3UQI?hV]@W1
+I[YB6Khg9>LQ0682m6=CSQ3
+R2
+R0
+w1730727981
+8../../../shiyan7_2.srcs/sim_1/new/Divider_tb.v
+F../../../shiyan7_2.srcs/sim_1/new/Divider_tb.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@divider_tb
+vglbl
+R1
+!i10b 1
+!s100 g=dL3UKAkhNRkQ:7=fPzF1
+IkJ@CGO[n5[_3E=ZkTzmEk2
+R2
+R0
+w1464879896
+8glbl.v
+Fglbl.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R8

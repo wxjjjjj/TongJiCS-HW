@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:E:/shuziluojiwork/9.14shiyan_1_santaimen/9.14shiyan_1_santaimen.srcs/constrs_1/new/333.xdc rfile:../../../9.14shiyan_1_santaimen.srcs/constrs_1/new/333.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J15 [get_ports iA]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M17 [get_ports iEna]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H17 [get_ports oTri]

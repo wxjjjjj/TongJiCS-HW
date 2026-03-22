@@ -1,0 +1,7 @@
+Flask 
+mysql-connector-python
+Flask-Cors
+python-dotenv
+werkzeug
+requests
+pytest
